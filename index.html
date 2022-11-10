@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -17,7 +16,7 @@
 </head>
 <style>
     :root {
-        --primary-color: #ff4c69;
+        --primary-color: #f64a4a;
         --secondary-color: #ffffff;
         --text-primary: #000000;
 
@@ -35,8 +34,21 @@
         font-weight: 900;
     }
     
-    #tindog-btn,#home-btn,#features-btn,#pricing-btn,#about-btn{
+    #home-btn,#features-btn,#pricing-btn,#about-btn{
         color: var(--secondary-color);
+        font-size: 20px;
+    }
+
+    #tindog-btn{
+        color: var(--secondary-color);
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 50px;
+    }
+
+    #customer-feedback{
+        font-size: 36px;
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-weight: 200;
     }
 
     .hero__img {
@@ -53,6 +65,11 @@
     .plain-section {
         background-color: var(--secondary-color);
         color: var(--text-primary);
+    }
+    /* carousel section */
+
+    #crush-em,#mydog-em{
+        font-size: 26px;
     }
 
     /* media query for title page */
@@ -141,13 +158,13 @@
                 <div class="feature-box col-lg-4">
                     <i class="fas fa-bullseye fa-4x text-danger"></i>
                     <h3 class="feature-section__title">Elite service</h3>
-                    <p>So easy to use, even your dog could do it.</p>
+                    <p>We provide quality service for every pet customer we encounter!</p>
                 </div>
 
                 <div class="feature-box col-lg-4">
                     <i class="fas fa-heart fa-4x text-danger"></i>
                     <h3 class="feature-section__title">Guaranteed to work</h3>
-                    <p>So easy to use, even your dog could do it.</p>
+                    <p>Reassuring and good quality of work for your pet!</p>
                 </div>
 
             </div>
@@ -162,14 +179,15 @@
 
             <div class="carousel-inner">
                 <div class="carousel-item active text-center">
-                    <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. .</h2>
+                    <h2 id="customer-feedback">Customer Feedbacks</h2>
+                    <h2>"Excellent work! my dog is fresh and looking good, thanks tindog shop, will definitely comeback"</h2>
                     <img class="w-10 img-fluid rounded-circle" src="lady-img.jpg" alt="First slide">
-                    <em>Ann Margaret</em>
+                    <br><br><em id="crush-em">Ann Margaret</em>
                 </div>
                 <div class="carousel-item text-center">
-                    <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. .</h2>
+                    <h2>"Arf arf arf arf arf arf arf arf arf arf arf arf arf arf arf"</h2>
                     <img class="w-20 img-fluid rounded-circle" src="dog-img.jpg" alt="second slide">
-                    <em>Darrel Lampa</em>
+                    <br><br><em id="mydog-em">Teddy Cortez</em>
                 </div>
 
             </div>
@@ -195,8 +213,8 @@
 
   <!-- PRICING SECTION -->
   <section id="pricing" class="plain-section text-center">
-    <h2 class="pricing__title">A Plan For A Dogg's Need</h2>
-    <p class="pricing__text">Simple and affordable price for your doggs</p>
+    <h2 class="pricing__title">A Plan For A Dog's Need</h2>
+    <p class="pricing__text">Simple and affordable price for your dogs</p>
 <div class="row">
 <div class="pricing__column col-lg-4 col-md-6">
     <!-- pricing card1 -->
@@ -233,11 +251,11 @@
  <div class="pricing__column col-lg-4 col-md-6">
  <div class="card">
     <div class="card-header">
-        <h3>Chihuahua</h3>
+        <h3>Golden Retriever</h3>
     </div>
     <div class="card-body">
         <h2 class="pricing__card-text">$99/mo</h2>
-        <p>priority listing</p>
+        <p>Priority Listing</p>
         <p>5 Matches Per Day</p>
         <p>10 Messages Per Day</p>
         <p>Unlimited App Usage</p>
@@ -256,7 +274,7 @@
     <div class="col-12 ">
         <h1 class="hero__title mb-5">Find true love of your dog's life today.</h1>
         <button class="btn btn-dark btn-lg"><i class="fa-brands fa-apple"></i> Download</button>
-        <button class="btn btn-outline-dark btn-lg"><i class="fa-brands fa-google-play">Download</button>
+        <button class="btn btn-outline-dark btn-lg"><i class="fa-brands fa-google-play"></i>Download</button>
     </div>
     
 </section>
@@ -267,7 +285,7 @@
   <a href="https://www.facebook.com/jm.cortez.52012"target="_block"><i class="fa-brands fa-facebook"></i></a>
   <a href="https://www.instagram.com/jmcrtzz_/"target="_block" ><i class="fa-brands fa-instagram"></i></a>
   <a href="email.com/jmcortezzzzz@gmail.com"target="_block" ><i class="fa-solid fa-envelope"></i></a>
-  <p> © Copyright 2022 Tindog | John Merwin Cortez web developer</p>
+  <p> © Copyright 2022 Tindog | John Merwin M. Cortez Web Developer</p>
 </section>
 
 
