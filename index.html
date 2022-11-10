@@ -34,9 +34,13 @@
         font-size: 56px;
         font-weight: 900;
     }
+    
+    #tindog-btn,#home-btn,#features-btn,#pricing-btn,#about-btn{
+        background-color: var(--secondary-color);
+    }
 
     .hero__img {
-        width: 70%;
+        width: 30%;
         transform: rotate(25deg);
         position: absolute;
         right: 20%;
@@ -84,7 +88,7 @@
 <body>
     <nav class="navbar navbar-expand-lg mt-3">
         <div class="container">
-            <a class="navbar-brand" href="#">Tindog</a>
+            <a id="tindog-btn" class="navbar-brand" href="#">Tindog</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -92,16 +96,16 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav justify-content-end flex-grow-1">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        <a id="home-btn" class="nav-link active" aria-current="page" href="#">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Features</a>
+                        <a id="features-btn" class="nav-link" href="#">Features</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Pricing</a>
+                        <a id="pricing-btn" class="nav-link" href="#">Pricing</a>
                     </li>
                    <li class="nav-item">
-                        <a class="nav-link" href="#">About</a>
+                        <a id="about-btn" class="nav-link" href="#">About</a>
                     </li>
                 </ul>
             </div>
